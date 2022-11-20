@@ -1,0 +1,138 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+#cuerpo{
+    background: linear-gradient(0deg, rgba(30,30,98,1) 0%, rgba(28,64,194,1) 52%, rgba(30,30,98,1) 100%);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#que{
+    padding: 3%;
+    text-align: justify;
+}
+
+#que img{
+    border-radius: 5%;
+}
+
+#que p{
+    padding-left: 28%;
+}
+
+#que h3{
+    text-align: center;
+}
+
+#funcion{
+    padding: 3%;
+    text-align: center;
+}
+
+#funcion h3{
+    text-align: center;
+}
+
+#tipos h3{
+    text-align: center;
+}
+
+
+#tipos{
+    padding: 3%;
+    text-align: justify;
+}
+
+#como h3{
+    text-align: center;
+}
+
+#como{
+    padding: 3%;
+    text-align: justify;
+}
+
+#historia h3{
+    text-align: center;
+}
+
+#historia{
+    padding: 3%;
+    text-align: justify;
+}
+
+#coinmarket{
+    text-align: center;
+}
+
+.minar{
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    background-color: #11113c;
+}
+
+.footer a{
+    font-size: 25px;
+    color: #1c40c2;
+}
+
+.flecha{
+    color:white;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(11, 17, 112);
+    text-align: center;
+    line-height: 25px;
+    border-radius: 100%;
+    z-index: 10;
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+    text-decoration: solid;
+
+}
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 78%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 98%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container h4 {
+text-align: center;
+}
